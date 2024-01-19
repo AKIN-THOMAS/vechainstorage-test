@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.top-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.loginBtn button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
